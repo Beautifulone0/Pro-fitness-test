@@ -1,0 +1,11 @@
+.glitter {
+  animation-name: glitter; 
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes glitter{
+  0% {color: hsl(227, 100%, 82%);}
+  50% {color: hsl(0, 0%, 100%);}
+  100% {color: hsl(220, 26%, 14%);}
+  
+}
